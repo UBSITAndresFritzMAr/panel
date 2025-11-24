@@ -50,7 +50,7 @@ public class CheckpointsUI extends JFrame {
 
         // ⭐ Add functionality → Go to ConfirmationUI
         continueBtn.addActionListener(e -> {
-            new ConfirmationUI();   // open next screen
+            new Hiking_Place();   // open next screen
             dispose();              // close this screen
         });
 

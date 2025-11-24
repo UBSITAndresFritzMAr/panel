@@ -4,9 +4,9 @@ import javax.swing.border.EmptyBorder;
 import java.awt.*;
 import java.awt.geom.RoundRectangle2D;
 
-public class ConfirmationUI extends JFrame {
+public class ValleyHood_Checkpoints extends JFrame {
 
-    public ConfirmationUI() {
+    public ValleyHood_Checkpoints() {
 
         setTitle("Let's G");
         setSize(1200, 900);
@@ -26,7 +26,7 @@ public class ConfirmationUI extends JFrame {
         content.setBackground(Color.WHITE);
         content.setBorder(new EmptyBorder(20, 40, 20, 40));
 
-        content.add(makeSection("DESTINATION", "Mount Kalugong"));
+        content.add(makeSection("DESTINATION", "Valley Hood"));
         content.add(Box.createVerticalStrut(30));
 
         content.add(makeSection("PARTICIPANTS", "Tim"));
