@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Erika, Always &mdash; A Love Story</title>
+<meta name="description" content="A digital scrapbook of memories, songs, and love letters for Erika.">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,500&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Poppins:wght@300;400;500;600&family=Dancing+Script:wght@500;600;700&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="loader">
+  <div class="loader-heart" aria-hidden="true">❤</div>
+  <p class="msg">Wait a little longer, Erika&hellip;<br>something made just for you is almost ready.</p>
+  <button id="enter-btn" type="button">Open Your Gift 💌</button>
+</div>
+
+<div id="ambient" aria-hidden="true"></div>
+
+
+<nav id="navbar" aria-label="Main navigation">
+  <div class="brand">Fritz &amp; Erika</div>
+  <button class="hamburger" id="hamburger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">☰</button>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#memories">Memories</a></li>
+    <li><a href="#songs">Our Songs</a></li>
+    <li><a href="#letters">Letters</a></li>
+    <li><a href="#moments">Moments</a></li>
+    <li><a href="#reasons">Reasons</a></li>
+    <li><a href="#dreams">Dreams</a></li>
+    <li><button id="music-toggle" type="button" aria-label="Play background music" aria-pressed="false">♪</button></li>
+  </ul>
+</nav>
+
+<!-- ========== HOME ========== -->
+<section id="home">
+  <div class="home-inner">
+    <span class="home-eyebrow">a little corner of the internet, just for you</span>
+    <h1>For <em>Erika</em>,<br>with all my love</h1>
+    <p class="lead">Every love story is beautiful, but I think ours is my favorite chapter. This is a small piece of us — our memories, our songs, and every reason you make my ordinary days feel like something worth writing down.</p>
+    <div class="cta-row">
+      <a href="#memories" class="btn-primary">Begin Our Story</a>
+      <a href="#letters" class="btn-ghost">Read a Letter</a>
+    </div>
+    <div class="scroll-cue" aria-hidden="true"><span></span>scroll</div>
+  </div>
+</section>
+
+<!-- ========== MEMORIES ========== -->
+<section id="memories" aria-labelledby="memories-heading">
+  <div class="section-head reveal">
+    <span class="eyebrow">📸 our scrapbook</span>
+    <h2 class="title" id="memories-heading">Our Memories</h2>
+    <p class="subtext">A few of the moments I never want to forget.</p>
+  </div>
+  <div class="corkboard">
+    <figure class="polaroid reveal">
+      <div class="tape" aria-hidden="true"></div>
+      <div class="frame"><img src="images/memory-01.jpg" alt="Fritz and Erika making silly faces together by a bamboo fence" loading="lazy"></div>
+      <figcaption>I thought I'd ruined the day, but you still chose to go out with me—and somehow, that made it one of my favorite memories.</figcaption>
+    </figure>
+    <figure class="polaroid reveal">
+      <div class="tape" aria-hidden="true"></div>
+      <div class="frame"><img src="images/memory-02.jpg" alt="Fritz and Erika laughing while wearing VR headsets at the VR Space Theater" loading="lazy"></div>
+      <figcaption>Laughing so hard neither of us remembers what the ride even was.</figcaption>
+    </figure>
+    <figure class="polaroid reveal">
+      <div class="tape" aria-hidden="true"></div>
+      <div class="frame"><img src="images/memory-03.jpg" alt="Erika making a playful pouty face with Fritz smiling in the background outdoors" loading="lazy"></div>
+      <figcaption>The day I made your favorite dish—because seeing you happy is my favorite recipe.</figcaption>
+    </figure>
+    <figure class="polaroid reveal">
+      <div class="tape" aria-hidden="true"></div>
+      <div class="frame"><img src="images/memory-04.jpg" alt="Fritz and Erika crouching together among tall pine trees, making surprised faces" loading="lazy"></div>
+      <figcaption>Lost among the pine trees, and perfectly fine with it.</figcaption>
+    </figure>
+    <figure class="polaroid reveal">
+      <div class="tape" aria-hidden="true"></div>
+      <div class="frame"><img src="images/memory-05.jpg" alt="Fritz and Erika taking a cozy indoor selfie together" loading="lazy"></div>
+      <figcaption>It was never just about the coffee—it was about spending those quiet moments with you.</figcaption>
+    </figure>
+    <figure class="polaroid reveal">
+      <div class="tape" aria-hidden="true"></div>
+      <div class="frame"><img src="images/memory-06.jpg" alt="Fritz and Erika at a park, Erika winking and holding a container of food" loading="lazy"></div>
+      <figcaption>The day our story began—the first time we met, a moment I'll always be grateful for.</figcaption>
+    </figure>
+    <figure class="polaroid reveal">
+      <div class="tape" aria-hidden="true"></div>
+      <div class="frame"><img src="images/memory-07.jpg" alt="Fritz and Erika at night overlooking city lights, Erika holding a bouquet of flowers" loading="lazy"></div>
+      <figcaption>City lights, flowers in your hands, and a night I keep replaying.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ========== SONGS ========== -->
+<section id="songs" aria-labelledby="songs-heading">
+  <div class="section-head reveal">
+    <span class="eyebrow">🎵 the soundtrack of us</span>
+    <h2 class="title" id="songs-heading">Our Songs</h2>
+    <p class="subtext">The songs that sound like you, like us, like every quiet drive and every long call.</p>
+  </div>
+  <div class="songs-grid">
+    <div class="song-card reveal" data-song-key="song1">
+      <div class="art" aria-hidden="true">🎶</div>
+      <h3>Panaginip natin</h3>
+      <div class="artist">nicole</div>
+
+      <div class="audio-player">
+        <button class="play-pause-btn" type="button" aria-label="Play Panaginip" aria-pressed="false">
+          <span class="icon-play" aria-hidden="true">▶</span>
+          <span class="icon-pause" aria-hidden="true">❚❚</span>
+        </button>
+        <div class="player-info">
+          <div class="progress-bar" tabindex="0" role="slider" aria-label="Seek Panaginip" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+            <div class="progress-fill"></div>
+          </div>
+          <div class="time-row">
+            <span class="current-time">0:00</span>
+            <span class="duration">0:00</span>
+          </div>
+        </div>
+      </div>
+      <audio class="track-audio" preload="none">
+        <source src="music/song1.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+
+      <div class="lyrics-container" aria-live="polite">
+        <div class="lyrics-scroll"></div>
+      </div>
+
+      <p class="song-note">This one's ours. Every time it plays, I think of you.</p>
+    </div>
+      
+</section>
+
+<!-- ========== LOVE LETTERS ========== -->
+<section id="letters" aria-labelledby="letters-heading">
+  <div class="section-head reveal">
+    <span class="eyebrow">💌 written for you</span>
+    <h2 class="title" id="letters-heading">Love Letters</h2>
+    <p class="subtext">Words I've kept for you. Click an envelope to open it.</p>
+  </div>
+  <div class="letters-wrap">
+    <button class="envelope reveal" type="button" data-letter="1" aria-haspopup="dialog">
+      <div class="seal" aria-hidden="true">💗</div>
+      <h3>For the Girl Who Changed Everything</h3>
+      <p class="tease">"I didn't know a heart could hold this much&hellip;"</p>
+      <span class="open-hint">Click to open</span>
+    </button>
+    <button class="envelope reveal" type="button" data-letter="2" aria-haspopup="dialog">
+      <div class="seal" aria-hidden="true">🌷</div>
+      <h3>On an Ordinary Tuesday</h3>
+      <p class="tease">"Nothing happened today, and I still thought of you a hundred times."</p>
+      <span class="open-hint">Click to open</span>
+    </button>
+    <button class="envelope reveal" type="button" data-letter="3" aria-haspopup="dialog">
+      <div class="seal" aria-hidden="true">✨</div>
+      <h3>For Every Year After This One</h3>
+      <p class="tease">"Wherever we end up, I hope it's together."</p>
+      <span class="open-hint">Click to open</span>
+    </button>
+  </div>
+</section>
+
+<!-- ========== SPECIAL MOMENTS ========== -->
+<section id="moments" aria-labelledby="moments-heading">
+  <div class="section-head reveal">
+    <span class="eyebrow">🗓️ our timeline</span>
+    <h2 class="title" id="moments-heading">Special Moments</h2>
+    <p class="subtext">Every chapter so far</p>
+  </div>
+  <ol class="timeline">
+
+    <li class="t-item reveal">
+      <div class="t-card">
+        <div class="dot" aria-hidden="true"></div>
+        <span class="eyebrow-sm">firsts</span>
+        <h3>Our First Meeting</h3>
+        <p>May 16. Nervous hands, too much to say, and a feeling neither of us could explain.</p>
+      </div>
+    </li>
+    <li class="t-item reveal">
+      <div class="t-card">
+        <div class="dot" aria-hidden="true"></div>
+        <span class="eyebrow-sm">her day</span>
+        <h3>Erika's Birthday</h3>
+        <p>November 16. A day the world got lucky, and I got luckier for knowing you.</p>
+      </div>
+    </li>
+    <li class="t-item reveal">
+      <div class="t-card">
+        <div class="dot" aria-hidden="true"></div>
+        <span class="eyebrow-sm">today</span>
+        <h3>This Gift</h3>
+        <p>The day I built you something small to hold a very big feeling.</p>
+      </div>
+    </li>
+  </ol>
+</section>
+
+
+<section id="reasons" aria-labelledby="reasons-heading">
+  <div class="section-head reveal">
+    <span class="eyebrow">✨ just a few of many</span>
+    <h2 class="title" id="reasons-heading">Keep falling for you</h2>
+    <p class="subtext">I could fill a hundred pages. Here's where I'd start.</p>
+  </div>
+  <div class="reasons-grid">
+    <div class="reason-card reveal"><span class="num">01</span><p>The way you laugh with your whole self, no holding back.</p></div>
+    <div class="reason-card reveal"><span class="num">02</span><p>You remember the small things I say, even the ones I forget.</p></div>
+    <div class="reason-card reveal"><span class="num">03</span><p>You make ordinary days feel like they matter.</p></div>
+    <div class="reason-card reveal"><span class="num">04</span><p>Your kindness, even on days you didn't have much left to give.</p></div>
+    <div class="reason-card reveal"><span class="num">05</span><p>The way you say my name like it means something.</p></div>
+    <div class="reason-card reveal"><span class="num">06</span><p>You're beautiful without ever trying to be.</p></div>
+    <div class="reason-card reveal"><span class="num">07</span><p>You believe in me, even when I forget to believe in myself.</p></div>
+    <div class="reason-card reveal"><span class="num">08</span><p>You make "home" feel like a person instead of a place.</p></div>
+    <div class="reason-card reveal"><span class="num">09</span><p>You stay, even on the hard days. Especially on the hard days.</p></div>
+    <div class="reason-card reveal"><span class="num">10</span><p>Simply — you are you, and that has always been enough.</p></div>
+  </div>
+</section>
+
+<!-- ========== FUTURE DREAMS ========== -->
+<section id="dreams" aria-labelledby="dreams-heading">
+  <div class="section-head reveal">
+    <span class="eyebrow">💖 what's ahead</span>
+    <h2 class="title" id="dreams-heading">Future Dreams</h2>
+    <p class="subtext">Everything I hope for isn't complete unless you're in it.</p>
+  </div>
+  <div class="dreams-grid">
+   <div class="dream-card reveal">
+  <div class="icon" aria-hidden="true">☕🤍</div>
+  <h3>One More Cup With You</h3>
+  <p>I hope we'll always have time to sit across from each other with a cup of coffee, talking about our dreams, laughing at little things, and creating memories we'll cherish forever.</p>
+</div>
+    <div class="dream-card reveal">
+  <div class="icon" aria-hidden="true">🏡🤍</div>
+  <h3>A Place to Call Ours</h3>
+  <p>My dream isn't a perfect house—it's a home with you in it. A place where your smile greets me every morning, our laughter fills every room, and every memory we create becomes another reason to fall in love with you all over again.</p>
+</div>
+
+<div class="dream-card reveal">
+  <div class="icon" aria-hidden="true">🌅✨</div>
+  <h3>Every Tomorrow With You</h3>
+  <p>If I could choose my future, I'd choose you every single time. I want to grow old beside you, celebrate every little victory, comfort each other through every challenge, and spend a lifetime making beautiful memories together.</p>
+</div>
+    <div class="dream-card reveal"><div class="icon" aria-hidden="true">🎉</div><h3>Every Milestone Ahead</h3><p>Whatever comes next for us, I want to be there for it — cheering the loudest, standing the closest.</p></div>
+  </div>
+</section>
+
+<footer>
+  <div class="sign reveal">Always yours, Fritz</div>
+  <p>Made with a whole heart, for Erika. 🌸</p>
+</footer>
+
+<!-- ========== HIDDEN SURPRISE BUTTON ========== -->
+<button id="surprise-btn" type="button" aria-label="A little surprise" aria-haspopup="dialog">🌸</button>
+
+<!-- ========== LETTER MODAL ========== -->
+<div id="letter-modal" role="dialog" aria-modal="true" aria-labelledby="letter-title">
+  <div class="letter-card">
+    <button class="close-modal" type="button" data-close="letter" aria-label="Close letter">✕</button>
+    <h3 id="letter-title"></h3>
+    <div class="body-text" id="letter-body"></div>
+  </div>
+</div>
+
+<!-- ========== SURPRISE MODAL ========== -->
+<div id="surprise-modal" role="dialog" aria-modal="true" aria-labelledby="surprise-title">
+  <div class="surprise-card">
+    <button class="close-modal" type="button" data-close="surprise" aria-label="Close surprise">✕</button>
+    <div class="big-heart" aria-hidden="true">❤</div>
+    <h3 id="surprise-title">For Erika</h3>
+    <p>Every love story is beautiful, but I think ours is my favorite one. Thank you for letting me love you. I love you, today and every day after this one.<br><br>— Fritz</p>
+  </div>
+</div>
+
+<!-- Ambient background music  -->
+<audio id="bg-music" loop preload="none">
+  <source src="music/ambient.mp3" type="audio/mpeg">
+</audio>
+
+<!-- Scripts -->
+<script src="lyrics.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
